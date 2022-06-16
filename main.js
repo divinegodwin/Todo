@@ -39,9 +39,6 @@ window.onload =()=>{
   
 
  p.innerHTML = localStorage.getItem("validation");
-
-console.log(p.innerHTML)
-
 //naming the Dom
 let input = document.querySelector(".text");
     addBtn = document.querySelector(".add"),
@@ -51,6 +48,7 @@ let input = document.querySelector(".text");
 
 addBtn.addEventListener("click", (e) => {
     if (input.value != "") {
+      let todos = document.createElement("li");
         todos.innerHTML = input.value;
         todoContainer.appendChild(todos);
         todos.classList.add("todos");
