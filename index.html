@@ -12,13 +12,19 @@
 </head>
 
 <body>
-
+<div class="container1">
     <div id="navs">
         <h1 class="heading">Todo </h1>
         <button class="clear-all" onclick="clear_all()">Clear All</button>
     </div>
+    
+     <div id="validation">
+        <p class="input-name-value"</p>
+     </div>
 
     <div class="input-container">
+       <h3 class="input-name-value"></h3>
+      
         <input type="text" class="text" placeholder="Add your new todo">
         <button class="add">
             <svg class="plus-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +42,16 @@
         <li class="todos">Learn some new flips</li>
         <li class="todos">Play games</li>
     </ul>
-
+</div>
+<center>
+<div class="modal">
+  <label>What's your name ?</label>
+  <input type="text" class="name">
+  <button class="name-btn">
+    <svg class="check-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+  </button>
+</div>
+</center>
 
 
     <script src="main.js"></script>
