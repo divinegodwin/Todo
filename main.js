@@ -65,14 +65,14 @@ addBtn.addEventListener("click", (e) => {
 /* Deleting a todo item and updating the todo Container */
 addEventListener("dblclick", (e) => {
     todoContainer.removeChild(e.target);
-    localStorage.setItem("todoContainer", todoContainer.innerHTML)
+    localStorage.setItem("todoContainer", todoContainer.innerHTML);
 })
 
 /* Clear all the items 
 and updates the local storage as well*/
 function clear_all() {
     todoContainer.innerHTML = "";
-    localStorage.clear("todoContainer");
+    localStorage.clear("todoContainer")
 }
 
 

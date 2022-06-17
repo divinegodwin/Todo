@@ -12,7 +12,9 @@ body {
     font-size: 16pt;
    
 }
-
+.heading{
+  font-family: 'Montserrat', sans-serif;
+}
 #navs {
     position: fixed;
     top: 0;
@@ -118,6 +120,7 @@ body {
   font-style: cursive;
   margin-top: 1.5rem;
   border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .blur{
@@ -148,7 +151,7 @@ label{
 .input-name-value{
   color:#000;
   font-size: 25px;
-  font-family: cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 #validation{
@@ -158,4 +161,9 @@ label{
 
 .todos{
   transition: 2s ease in;
+}
+
+small{
+  font-family: 'Roboto', sans-serif;
+  
 }
